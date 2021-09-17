@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 
 //require("./app/routes/customer.routes.js")(app);
 require("./app/routes/player.routes.js")(app);
-require("./app/routes/team.routes.js")(app);
+//require("./app/routes/team.routes.js")(app);
 
 app.listen(process.env.PORT||3000, () => {
   console.log("Server is running on port 3000.");
